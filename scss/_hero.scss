@@ -27,8 +27,7 @@
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease-in-out;
   }
-  &__btn:hover,
-  :active {
+  &__btn:hover {
     background-color: var(--softMagenta);
     color: white;
     margin: 1rem;
@@ -45,6 +44,9 @@
     }
     &__title {
       font-size: 2.5rem;
+    }
+    &__description{
+        font-size: 1.1rem;
     }
     &__btn {
       padding: 1rem 4.5rem;

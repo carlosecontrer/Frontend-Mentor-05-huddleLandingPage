@@ -57,6 +57,7 @@ a {
 @media screen and (min-width: 769px) {
   .header__logo {
     max-width: 16%;
+    margin-top: 4rem;
   }
 }
 
@@ -94,8 +95,7 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-.hero__btn:hover,
-.hero :active {
+.hero__btn:hover {
   background-color: var(--softMagenta);
   color: white;
   margin: 1rem;
@@ -114,6 +114,9 @@ a {
   }
   .hero__title {
     font-size: 2.5rem;
+  }
+  .hero__description {
+    font-size: 1.1rem;
   }
   .hero__btn {
     padding: 1rem 4.5rem;
@@ -166,5 +169,23 @@ a {
 .social__item:hover a,
 .social__item :active a {
   color: var(--softMagenta);
+}
+
+@media screen and (min-width: 769px) {
+  .social {
+    margin-top: 0;
+    font-size: 1rem;
+  }
+  .social__icons {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .social__item {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 1.3rem;
+    margin: 0 0.25rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */

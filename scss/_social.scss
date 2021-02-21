@@ -28,3 +28,20 @@
     }
   }
 }
+
+
+@media screen and (min-width: 769px) {
+ .social{
+     margin-top: 0;
+     font-size: 1rem;
+     &__icons{
+         justify-content: flex-end;
+     }
+     &__item{
+         width: 1.5rem;
+         height: 1.5rem;
+         padding: 1.3rem;
+         margin: 0 0.25rem;
+     }
+ }   
+}
